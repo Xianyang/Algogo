@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CDAF302BC92A96597669F0E /* libPods-AlgoGoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F785C1ACD2C8AB069AACF7 /* libPods-AlgoGoTests.a */; };
 		866A2C111D88F15400A4C18B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 866A2C101D88F15400A4C18B /* main.m */; };
 		866A2C141D88F15400A4C18B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 866A2C131D88F15400A4C18B /* AppDelegate.m */; };
 		866A2C171D88F15400A4C18B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866A2C161D88F15400A4C18B /* ViewController.m */; };
@@ -16,6 +17,8 @@
 		866A2C221D88F15400A4C18B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866A2C201D88F15400A4C18B /* LaunchScreen.storyboard */; };
 		866A2C2D1D88F15400A4C18B /* AlgoGoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 866A2C2C1D88F15400A4C18B /* AlgoGoTests.m */; };
 		866A2C381D88F15400A4C18B /* AlgoGoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 866A2C371D88F15400A4C18B /* AlgoGoUITests.m */; };
+		A19675FCE8F67074741415F9 /* libPods-AlgoGoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A651AE4170F385F56EBC2FE9 /* libPods-AlgoGoUITests.a */; };
+		ACAE20B6C39701A899A7E83A /* libPods-AlgoGo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7B33F5D9DA9C2A7E4270C8 /* libPods-AlgoGo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		458506E4586CFFDECFB29B74 /* Pods-AlgoGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgoGo/Pods-AlgoGo.release.xcconfig"; sourceTree = "<group>"; };
+		49DB07B6259435C9C436A9C0 /* Pods-AlgoGoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoGoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlgoGoUITests/Pods-AlgoGoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		673293BF4E2E694B3BF63EAF /* Pods-AlgoGoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoGoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlgoGoTests/Pods-AlgoGoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		78F6E67C35EEE44EFDBECFBA /* Pods-AlgoGoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoGoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgoGoUITests/Pods-AlgoGoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A7B33F5D9DA9C2A7E4270C8 /* libPods-AlgoGo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlgoGo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		866A2C0C1D88F15400A4C18B /* AlgoGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgoGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		866A2C101D88F15400A4C18B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		866A2C121D88F15400A4C18B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +61,10 @@
 		866A2C331D88F15400A4C18B /* AlgoGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgoGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		866A2C371D88F15400A4C18B /* AlgoGoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgoGoUITests.m; sourceTree = "<group>"; };
 		866A2C391D88F15400A4C18B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C6BF1404931D723B285108E /* Pods-AlgoGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoGo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlgoGo/Pods-AlgoGo.debug.xcconfig"; sourceTree = "<group>"; };
+		94A53A15C6CD7180035008AC /* Pods-AlgoGoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoGoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgoGoTests/Pods-AlgoGoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A0F785C1ACD2C8AB069AACF7 /* libPods-AlgoGoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlgoGoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A651AE4170F385F56EBC2FE9 /* libPods-AlgoGoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlgoGoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACAE20B6C39701A899A7E83A /* libPods-AlgoGo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CDAF302BC92A96597669F0E /* libPods-AlgoGoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A19675FCE8F67074741415F9 /* libPods-AlgoGoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D934D932289C0CFCFEBBAAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C6BF1404931D723B285108E /* Pods-AlgoGo.debug.xcconfig */,
+				458506E4586CFFDECFB29B74 /* Pods-AlgoGo.release.xcconfig */,
+				673293BF4E2E694B3BF63EAF /* Pods-AlgoGoTests.debug.xcconfig */,
+				94A53A15C6CD7180035008AC /* Pods-AlgoGoTests.release.xcconfig */,
+				49DB07B6259435C9C436A9C0 /* Pods-AlgoGoUITests.debug.xcconfig */,
+				78F6E67C35EEE44EFDBECFBA /* Pods-AlgoGoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		866A2C031D88F15400A4C18B = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +115,8 @@
 				866A2C2B1D88F15400A4C18B /* AlgoGoTests */,
 				866A2C361D88F15400A4C18B /* AlgoGoUITests */,
 				866A2C0D1D88F15400A4C18B /* Products */,
+				3D934D932289C0CFCFEBBAAC /* Pods */,
+				C629405C4CD7F6826CC01170 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +173,16 @@
 			path = AlgoGoUITests;
 			sourceTree = "<group>";
 		};
+		C629405C4CD7F6826CC01170 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A7B33F5D9DA9C2A7E4270C8 /* libPods-AlgoGo.a */,
+				A0F785C1ACD2C8AB069AACF7 /* libPods-AlgoGoTests.a */,
+				A651AE4170F385F56EBC2FE9 /* libPods-AlgoGoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 866A2C3C1D88F15400A4C18B /* Build configuration list for PBXNativeTarget "AlgoGo" */;
 			buildPhases = (
+				92619D6B58CF4C062A20DDF5 /* [CP] Check Pods Manifest.lock */,
 				866A2C081D88F15400A4C18B /* Sources */,
 				866A2C091D88F15400A4C18B /* Frameworks */,
 				866A2C0A1D88F15400A4C18B /* Resources */,
+				A70EACF7207866B8E5D782BD /* [CP] Embed Pods Frameworks */,
+				D27EB53ACDFC4B772F0A3EC2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 866A2C3F1D88F15400A4C18B /* Build configuration list for PBXNativeTarget "AlgoGoTests" */;
 			buildPhases = (
+				EA0417EFA56CDB83C871323F /* [CP] Check Pods Manifest.lock */,
 				866A2C241D88F15400A4C18B /* Sources */,
 				866A2C251D88F15400A4C18B /* Frameworks */,
 				866A2C261D88F15400A4C18B /* Resources */,
+				C93A1B936E10D8AAA6974812 /* [CP] Embed Pods Frameworks */,
+				E528CDA71D79E9CAE76AD3F0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 866A2C421D88F15400A4C18B /* Build configuration list for PBXNativeTarget "AlgoGoUITests" */;
 			buildPhases = (
+				A5B834A29392878F8631F589 /* [CP] Check Pods Manifest.lock */,
 				866A2C2F1D88F15400A4C18B /* Sources */,
 				866A2C301D88F15400A4C18B /* Frameworks */,
 				866A2C311D88F15400A4C18B /* Resources */,
+				2B934763AC700BF4AE9032E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,6 +315,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B934763AC700BF4AE9032E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlgoGoUITests/Pods-AlgoGoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92619D6B58CF4C062A20DDF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A5B834A29392878F8631F589 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A70EACF7207866B8E5D782BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlgoGo/Pods-AlgoGo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C93A1B936E10D8AAA6974812 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlgoGoTests/Pods-AlgoGoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D27EB53ACDFC4B772F0A3EC2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlgoGo/Pods-AlgoGo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E528CDA71D79E9CAE76AD3F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlgoGoTests/Pods-AlgoGoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA0417EFA56CDB83C871323F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		866A2C081D88F15400A4C18B /* Sources */ = {
@@ -417,6 +588,7 @@
 		};
 		866A2C3D1D88F15400A4C18B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C6BF1404931D723B285108E /* Pods-AlgoGo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AlgoGo/Info.plist;
@@ -428,6 +600,7 @@
 		};
 		866A2C3E1D88F15400A4C18B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 458506E4586CFFDECFB29B74 /* Pods-AlgoGo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AlgoGo/Info.plist;
@@ -439,6 +612,7 @@
 		};
 		866A2C401D88F15400A4C18B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 673293BF4E2E694B3BF63EAF /* Pods-AlgoGoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AlgoGoTests/Info.plist;
@@ -451,6 +625,7 @@
 		};
 		866A2C411D88F15400A4C18B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94A53A15C6CD7180035008AC /* Pods-AlgoGoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AlgoGoTests/Info.plist;
@@ -463,6 +638,7 @@
 		};
 		866A2C431D88F15400A4C18B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49DB07B6259435C9C436A9C0 /* Pods-AlgoGoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = AlgoGoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -474,6 +650,7 @@
 		};
 		866A2C441D88F15400A4C18B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78F6E67C35EEE44EFDBECFBA /* Pods-AlgoGoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = AlgoGoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -502,6 +679,7 @@
 				866A2C3E1D88F15400A4C18B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		866A2C3F1D88F15400A4C18B /* Build configuration list for PBXNativeTarget "AlgoGoTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +688,7 @@
 				866A2C411D88F15400A4C18B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		866A2C421D88F15400A4C18B /* Build configuration list for PBXNativeTarget "AlgoGoUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +697,7 @@
 				866A2C441D88F15400A4C18B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
