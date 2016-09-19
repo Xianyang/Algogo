@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "AGLoginViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -17,6 +19,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [NSThread sleepForTimeInterval:2.0];//设置启动页面时间
+//    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//    
+//    self.window.rootViewController = [[AGLoginViewController alloc] init];
+//    
+//    [self.window makeKeyAndVisible];
+//    
+//    self.window.backgroundColor = [UIColor whiteColor];
     return YES;
 }
 

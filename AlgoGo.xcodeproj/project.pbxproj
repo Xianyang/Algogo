@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		274782CB1D89277B001520D5 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 274782C91D89277B001520D5 /* login.png */; };
+		274782CC1D89277B001520D5 /* login.psd in Resources */ = {isa = PBXBuildFile; fileRef = 274782CA1D89277B001520D5 /* login.psd */; };
+		27E501021D8931A800AFEF64 /* doggy.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E500F81D8931A800AFEF64 /* doggy.png */; };
+		27E501031D8931A800AFEF64 /* 动态-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 27E500F91D8931A800AFEF64 /* 动态-1.gif */; };
+		27E501041D8931A800AFEF64 /* 动态-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 27E500FA1D8931A800AFEF64 /* 动态-2.gif */; };
+		27E501051D8931A800AFEF64 /* 女孩和狗01.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E500FB1D8931A800AFEF64 /* 女孩和狗01.png */; };
+		27E501061D8931A800AFEF64 /* 女孩和狗01a.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E500FC1D8931A800AFEF64 /* 女孩和狗01a.png */; };
+		27E501071D8931A800AFEF64 /* 女孩和狗02.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E500FD1D8931A800AFEF64 /* 女孩和狗02.png */; };
+		27E501081D8931A800AFEF64 /* 女孩和狗02a.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E500FE1D8931A800AFEF64 /* 女孩和狗02a.png */; };
+		27E501091D8931A800AFEF64 /* 女孩和狗03.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E500FF1D8931A800AFEF64 /* 女孩和狗03.png */; };
+		27E5010A1D8931A800AFEF64 /* 女孩和狗03a.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E501001D8931A800AFEF64 /* 女孩和狗03a.png */; };
+		27E5010B1D8931A800AFEF64 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E501011D8931A800AFEF64 /* test.png */; };
+		27E5012F1D8933C200AFEF64 /* AlgoGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27E5010D1D8933C200AFEF64 /* AlgoGo.xcdatamodeld */; };
+		27E501301D8933C200AFEF64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E501101D8933C200AFEF64 /* AppDelegate.m */; };
+		27E501311D8933C200AFEF64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E501111D8933C200AFEF64 /* Assets.xcassets */; };
+		27E501321D8933C200AFEF64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E501121D8933C200AFEF64 /* LaunchScreen.storyboard */; };
+		27E501331D8933C200AFEF64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E501141D8933C200AFEF64 /* Main.storyboard */; };
+		27E501341D8933C200AFEF64 /* backImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E501171D8933C200AFEF64 /* backImage@2x.png */; };
+		27E501351D8933C200AFEF64 /* backImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E501181D8933C200AFEF64 /* backImage@3x.png */; };
+		27E501361D8933C200AFEF64 /* JTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E5011A1D8933C200AFEF64 /* JTNavigationController.m */; };
+		27E501371D8933C200AFEF64 /* UIViewController+JTNavigationExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E5011C1D8933C200AFEF64 /* UIViewController+JTNavigationExtension.m */; };
+		27E501441D8933C200AFEF64 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27E5012B1D8933C200AFEF64 /* Info.plist */; };
+		27E5014F1D893B7700AFEF64 /* AGHomeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E5014E1D893B7700AFEF64 /* AGHomeTabBarController.m */; };
+		27E501521D893B9A00AFEF64 /* AGLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E501511D893B9A00AFEF64 /* AGLoginViewController.m */; };
+		27E501581D894B2000AFEF64 /* AGTradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E501571D894B2000AFEF64 /* AGTradeViewController.m */; };
+		27E5015B1D89520900AFEF64 /* AGStrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E5015A1D89520900AFEF64 /* AGStrategyViewController.m */; };
+		27E5015E1D89526000AFEF64 /* AGChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E5015D1D89526000AFEF64 /* AGChartViewController.m */; };
 		4CDAF302BC92A96597669F0E /* libPods-AlgoGoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F785C1ACD2C8AB069AACF7 /* libPods-AlgoGoTests.a */; };
 		866A2C111D88F15400A4C18B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 866A2C101D88F15400A4C18B /* main.m */; };
-		866A2C141D88F15400A4C18B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 866A2C131D88F15400A4C18B /* AppDelegate.m */; };
-		866A2C171D88F15400A4C18B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866A2C161D88F15400A4C18B /* ViewController.m */; };
-		866A2C1A1D88F15400A4C18B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866A2C181D88F15400A4C18B /* Main.storyboard */; };
-		866A2C1D1D88F15400A4C18B /* AlgoGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 866A2C1B1D88F15400A4C18B /* AlgoGo.xcdatamodeld */; };
-		866A2C1F1D88F15400A4C18B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 866A2C1E1D88F15400A4C18B /* Assets.xcassets */; };
-		866A2C221D88F15400A4C18B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866A2C201D88F15400A4C18B /* LaunchScreen.storyboard */; };
 		866A2C2D1D88F15400A4C18B /* AlgoGoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 866A2C2C1D88F15400A4C18B /* AlgoGoTests.m */; };
 		866A2C381D88F15400A4C18B /* AlgoGoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 866A2C371D88F15400A4C18B /* AlgoGoUITests.m */; };
 		A19675FCE8F67074741415F9 /* libPods-AlgoGoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A651AE4170F385F56EBC2FE9 /* libPods-AlgoGoUITests.a */; };
@@ -39,6 +60,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		274782C91D89277B001520D5 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
+		274782CA1D89277B001520D5 /* login.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = login.psd; sourceTree = "<group>"; };
+		27E500F81D8931A800AFEF64 /* doggy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doggy.png; sourceTree = "<group>"; };
+		27E500F91D8931A800AFEF64 /* 动态-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "动态-1.gif"; sourceTree = "<group>"; };
+		27E500FA1D8931A800AFEF64 /* 动态-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "动态-2.gif"; sourceTree = "<group>"; };
+		27E500FB1D8931A800AFEF64 /* 女孩和狗01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "女孩和狗01.png"; sourceTree = "<group>"; };
+		27E500FC1D8931A800AFEF64 /* 女孩和狗01a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "女孩和狗01a.png"; sourceTree = "<group>"; };
+		27E500FD1D8931A800AFEF64 /* 女孩和狗02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "女孩和狗02.png"; sourceTree = "<group>"; };
+		27E500FE1D8931A800AFEF64 /* 女孩和狗02a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "女孩和狗02a.png"; sourceTree = "<group>"; };
+		27E500FF1D8931A800AFEF64 /* 女孩和狗03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "女孩和狗03.png"; sourceTree = "<group>"; };
+		27E501001D8931A800AFEF64 /* 女孩和狗03a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "女孩和狗03a.png"; sourceTree = "<group>"; };
+		27E501011D8931A800AFEF64 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		27E5010E1D8933C200AFEF64 /* AlgoGo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlgoGo.xcdatamodel; sourceTree = "<group>"; };
+		27E5010F1D8933C200AFEF64 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27E501101D8933C200AFEF64 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27E501111D8933C200AFEF64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27E501131D8933C200AFEF64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27E501151D8933C200AFEF64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27E501171D8933C200AFEF64 /* backImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backImage@2x.png"; path = "../Classes/backImage@2x.png"; sourceTree = "<group>"; };
+		27E501181D8933C200AFEF64 /* backImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backImage@3x.png"; path = "../Classes/backImage@3x.png"; sourceTree = "<group>"; };
+		27E501191D8933C200AFEF64 /* JTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTNavigationController.h; sourceTree = "<group>"; };
+		27E5011A1D8933C200AFEF64 /* JTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTNavigationController.m; sourceTree = "<group>"; };
+		27E5011B1D8933C200AFEF64 /* UIViewController+JTNavigationExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JTNavigationExtension.h"; sourceTree = "<group>"; };
+		27E5011C1D8933C200AFEF64 /* UIViewController+JTNavigationExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JTNavigationExtension.m"; sourceTree = "<group>"; };
+		27E5012B1D8933C200AFEF64 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E5014D1D893B7700AFEF64 /* AGHomeTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGHomeTabBarController.h; sourceTree = "<group>"; };
+		27E5014E1D893B7700AFEF64 /* AGHomeTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHomeTabBarController.m; sourceTree = "<group>"; };
+		27E501501D893B9A00AFEF64 /* AGLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLoginViewController.h; sourceTree = "<group>"; };
+		27E501511D893B9A00AFEF64 /* AGLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLoginViewController.m; sourceTree = "<group>"; };
+		27E501561D894B2000AFEF64 /* AGTradeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTradeViewController.h; sourceTree = "<group>"; };
+		27E501571D894B2000AFEF64 /* AGTradeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTradeViewController.m; sourceTree = "<group>"; };
+		27E501591D89520900AFEF64 /* AGStrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGStrategyViewController.h; sourceTree = "<group>"; };
+		27E5015A1D89520900AFEF64 /* AGStrategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGStrategyViewController.m; sourceTree = "<group>"; };
+		27E5015C1D89526000AFEF64 /* AGChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGChartViewController.h; path = AlgoGo/AGChartViewController.h; sourceTree = SOURCE_ROOT; };
+		27E5015D1D89526000AFEF64 /* AGChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGChartViewController.m; path = AlgoGo/AGChartViewController.m; sourceTree = SOURCE_ROOT; };
 		458506E4586CFFDECFB29B74 /* Pods-AlgoGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgoGo/Pods-AlgoGo.release.xcconfig"; sourceTree = "<group>"; };
 		49DB07B6259435C9C436A9C0 /* Pods-AlgoGoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoGoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlgoGoUITests/Pods-AlgoGoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		673293BF4E2E694B3BF63EAF /* Pods-AlgoGoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoGoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlgoGoTests/Pods-AlgoGoTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -46,15 +102,6 @@
 		7A7B33F5D9DA9C2A7E4270C8 /* libPods-AlgoGo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlgoGo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		866A2C0C1D88F15400A4C18B /* AlgoGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgoGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		866A2C101D88F15400A4C18B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		866A2C121D88F15400A4C18B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		866A2C131D88F15400A4C18B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		866A2C151D88F15400A4C18B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		866A2C161D88F15400A4C18B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		866A2C191D88F15400A4C18B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		866A2C1C1D88F15400A4C18B /* AlgoGo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlgoGo.xcdatamodel; sourceTree = "<group>"; };
-		866A2C1E1D88F15400A4C18B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		866A2C211D88F15400A4C18B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		866A2C231D88F15400A4C18B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		866A2C281D88F15400A4C18B /* AlgoGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgoGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		866A2C2C1D88F15400A4C18B /* AlgoGoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgoGoTests.m; sourceTree = "<group>"; };
 		866A2C2E1D88F15400A4C18B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,6 +142,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		274782C81D89277B001520D5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				27E501171D8933C200AFEF64 /* backImage@2x.png */,
+				27E501181D8933C200AFEF64 /* backImage@3x.png */,
+				27E500F71D8931A800AFEF64 /* I am dog */,
+				27E501011D8931A800AFEF64 /* test.png */,
+				274782C91D89277B001520D5 /* login.png */,
+				274782CA1D89277B001520D5 /* login.psd */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		27E500F71D8931A800AFEF64 /* I am dog */ = {
+			isa = PBXGroup;
+			children = (
+				27E500F81D8931A800AFEF64 /* doggy.png */,
+				27E500F91D8931A800AFEF64 /* 动态-1.gif */,
+				27E500FA1D8931A800AFEF64 /* 动态-2.gif */,
+				27E500FB1D8931A800AFEF64 /* 女孩和狗01.png */,
+				27E500FC1D8931A800AFEF64 /* 女孩和狗01a.png */,
+				27E500FD1D8931A800AFEF64 /* 女孩和狗02.png */,
+				27E500FE1D8931A800AFEF64 /* 女孩和狗02a.png */,
+				27E500FF1D8931A800AFEF64 /* 女孩和狗03.png */,
+				27E501001D8931A800AFEF64 /* 女孩和狗03a.png */,
+			);
+			path = "I am dog";
+			sourceTree = "<group>";
+		};
+		27E5010C1D8933C200AFEF64 /* AlgoGo */ = {
+			isa = PBXGroup;
+			children = (
+				27E501501D893B9A00AFEF64 /* AGLoginViewController.h */,
+				27E501511D893B9A00AFEF64 /* AGLoginViewController.m */,
+				27E5010D1D8933C200AFEF64 /* AlgoGo.xcdatamodeld */,
+				27E5010F1D8933C200AFEF64 /* AppDelegate.h */,
+				27E501101D8933C200AFEF64 /* AppDelegate.m */,
+				27E501111D8933C200AFEF64 /* Assets.xcassets */,
+				27E501121D8933C200AFEF64 /* LaunchScreen.storyboard */,
+				27E501141D8933C200AFEF64 /* Main.storyboard */,
+				27E501161D8933C200AFEF64 /* Classes */,
+				27E5014D1D893B7700AFEF64 /* AGHomeTabBarController.h */,
+				27E5014E1D893B7700AFEF64 /* AGHomeTabBarController.m */,
+				27E501561D894B2000AFEF64 /* AGTradeViewController.h */,
+				27E501571D894B2000AFEF64 /* AGTradeViewController.m */,
+				27E501591D89520900AFEF64 /* AGStrategyViewController.h */,
+				27E5015A1D89520900AFEF64 /* AGStrategyViewController.m */,
+				27E5015C1D89526000AFEF64 /* AGChartViewController.h */,
+				27E5015D1D89526000AFEF64 /* AGChartViewController.m */,
+			);
+			name = AlgoGo;
+			sourceTree = "<group>";
+		};
+		27E501161D8933C200AFEF64 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				27E501191D8933C200AFEF64 /* JTNavigationController.h */,
+				27E5011A1D8933C200AFEF64 /* JTNavigationController.m */,
+				27E5011B1D8933C200AFEF64 /* UIViewController+JTNavigationExtension.h */,
+				27E5011C1D8933C200AFEF64 /* UIViewController+JTNavigationExtension.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		3D934D932289C0CFCFEBBAAC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,15 +244,7 @@
 		866A2C0E1D88F15400A4C18B /* AlgoGo */ = {
 			isa = PBXGroup;
 			children = (
-				866A2C121D88F15400A4C18B /* AppDelegate.h */,
-				866A2C131D88F15400A4C18B /* AppDelegate.m */,
-				866A2C151D88F15400A4C18B /* ViewController.h */,
-				866A2C161D88F15400A4C18B /* ViewController.m */,
-				866A2C181D88F15400A4C18B /* Main.storyboard */,
-				866A2C1E1D88F15400A4C18B /* Assets.xcassets */,
-				866A2C201D88F15400A4C18B /* LaunchScreen.storyboard */,
-				866A2C231D88F15400A4C18B /* Info.plist */,
-				866A2C1B1D88F15400A4C18B /* AlgoGo.xcdatamodeld */,
+				27E5010C1D8933C200AFEF64 /* AlgoGo */,
 				866A2C0F1D88F15400A4C18B /* Supporting Files */,
 			);
 			path = AlgoGo;
@@ -150,6 +253,8 @@
 		866A2C0F1D88F15400A4C18B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				27E5012B1D8933C200AFEF64 /* Info.plist */,
+				274782C81D89277B001520D5 /* images */,
 				866A2C101D88F15400A4C18B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -294,9 +399,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				866A2C221D88F15400A4C18B /* LaunchScreen.storyboard in Resources */,
-				866A2C1F1D88F15400A4C18B /* Assets.xcassets in Resources */,
-				866A2C1A1D88F15400A4C18B /* Main.storyboard in Resources */,
+				27E5010A1D8931A800AFEF64 /* 女孩和狗03a.png in Resources */,
+				27E501071D8931A800AFEF64 /* 女孩和狗02.png in Resources */,
+				27E501091D8931A800AFEF64 /* 女孩和狗03.png in Resources */,
+				274782CB1D89277B001520D5 /* login.png in Resources */,
+				27E501441D8933C200AFEF64 /* Info.plist in Resources */,
+				274782CC1D89277B001520D5 /* login.psd in Resources */,
+				27E501081D8931A800AFEF64 /* 女孩和狗02a.png in Resources */,
+				27E501321D8933C200AFEF64 /* LaunchScreen.storyboard in Resources */,
+				27E501031D8931A800AFEF64 /* 动态-1.gif in Resources */,
+				27E501041D8931A800AFEF64 /* 动态-2.gif in Resources */,
+				27E501051D8931A800AFEF64 /* 女孩和狗01.png in Resources */,
+				27E5010B1D8931A800AFEF64 /* test.png in Resources */,
+				27E501021D8931A800AFEF64 /* doggy.png in Resources */,
+				27E501351D8933C200AFEF64 /* backImage@3x.png in Resources */,
+				27E501331D8933C200AFEF64 /* Main.storyboard in Resources */,
+				27E501311D8933C200AFEF64 /* Assets.xcassets in Resources */,
+				27E501341D8933C200AFEF64 /* backImage@2x.png in Resources */,
+				27E501061D8931A800AFEF64 /* 女孩和狗01a.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,10 +564,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				866A2C1D1D88F15400A4C18B /* AlgoGo.xcdatamodeld in Sources */,
-				866A2C171D88F15400A4C18B /* ViewController.m in Sources */,
-				866A2C141D88F15400A4C18B /* AppDelegate.m in Sources */,
+				27E5015B1D89520900AFEF64 /* AGStrategyViewController.m in Sources */,
+				27E501371D8933C200AFEF64 /* UIViewController+JTNavigationExtension.m in Sources */,
+				27E501581D894B2000AFEF64 /* AGTradeViewController.m in Sources */,
+				27E5012F1D8933C200AFEF64 /* AlgoGo.xcdatamodeld in Sources */,
+				27E501361D8933C200AFEF64 /* JTNavigationController.m in Sources */,
+				27E5015E1D89526000AFEF64 /* AGChartViewController.m in Sources */,
+				27E5014F1D893B7700AFEF64 /* AGHomeTabBarController.m in Sources */,
+				27E501521D893B9A00AFEF64 /* AGLoginViewController.m in Sources */,
 				866A2C111D88F15400A4C18B /* main.m in Sources */,
+				27E501301D8933C200AFEF64 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,20 +609,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		866A2C181D88F15400A4C18B /* Main.storyboard */ = {
+		27E501121D8933C200AFEF64 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				866A2C191D88F15400A4C18B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		866A2C201D88F15400A4C18B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				866A2C211D88F15400A4C18B /* Base */,
+				27E501131D8933C200AFEF64 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		27E501141D8933C200AFEF64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27E501151D8933C200AFEF64 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -591,8 +717,19 @@
 			baseConfigurationReference = 8C6BF1404931D723B285108E /* Pods-AlgoGo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_NO_COMMON_BLOCKS = NO;
 				INFOPLIST_FILE = AlgoGo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"JSONModel\"",
+					"-l\"SocketRocket\"",
+					"-l\"icucore\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"Security\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.axiom.algogo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -603,8 +740,19 @@
 			baseConfigurationReference = 458506E4586CFFDECFB29B74 /* Pods-AlgoGo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_NO_COMMON_BLOCKS = NO;
 				INFOPLIST_FILE = AlgoGo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"JSONModel\"",
+					"-l\"SocketRocket\"",
+					"-l\"icucore\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"Security\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.axiom.algogo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -702,12 +850,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		866A2C1B1D88F15400A4C18B /* AlgoGo.xcdatamodeld */ = {
+		27E5010D1D8933C200AFEF64 /* AlgoGo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				866A2C1C1D88F15400A4C18B /* AlgoGo.xcdatamodel */,
+				27E5010E1D8933C200AFEF64 /* AlgoGo.xcdatamodel */,
 			);
-			currentVersion = 866A2C1C1D88F15400A4C18B /* AlgoGo.xcdatamodel */;
+			currentVersion = 27E5010E1D8933C200AFEF64 /* AlgoGo.xcdatamodel */;
 			path = AlgoGo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
