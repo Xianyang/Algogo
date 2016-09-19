@@ -1,22 +1,29 @@
 //
-//  AGStrategyViewController.m
+//  AGTradeViewController.m
 //  AlgoGo
 //
 //  Created by JessieYong on 16/9/14.
 //  Copyright © 2016年 Axiom. All rights reserved.
 //
 
+#import "AGTradeViewController.h"
 #import "AGStrategyViewController.h"
-#import "AGChartViewController.h"
 
-@implementation AGStrategyViewController
+@implementation AGTradeViewController
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"Strategy";
+    self.title = @"Trade";
     //self.navigationController.navigationBar.barTintColor = [UIColor randomColor];
     //self.view.backgroundColor = [UIColor randomColor];
+    
+    UIControl *control = [[UIControl alloc] initWithFrame:self.view.frame];
+    [self.view addSubview:control];
+    [control addTarget:self action:@selector(didTapNextButton) forControlEvents:UIControlEventTouchDown];
+
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Next" style:UIBarButtonItemStylePlain target:self action:@selector(didTapNextButton)];
+    
     
     //    self.jt_fullScreenPopGestureEnabled = NO; //关闭当前控制器的全屏返回手势
 }
@@ -25,10 +32,13 @@
     return UIStatusBarStyleDefault;
 }
 
+
 - (void)didTapNextButton {
-    AGChartViewController *viewController = [[AGChartViewController alloc] init];
-    viewController.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:viewController animated:YES];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    AGStrategyViewController *strategyViewController = [storyboard instantiateViewControllerWithIdentifier:@"strategyController"];
+    strategyViewController.hidesBottomBarWhenPushed = NO;
+    [self.navigationController pushViewController:strategyViewController animated:YES];
 }
+
 
 @end

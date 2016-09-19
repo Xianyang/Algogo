@@ -8,10 +8,14 @@
 
 #import "JTNavigationController.h"
 #import "UIViewController+JTNavigationExtension.h"
+#import "UIImage+Image.h"
 
 #define kDefaultBackImageName @"backImage"
 
 #pragma mark - JTWrapNavigationController
+
+#define NavBarColor [UIColor colorWithRed:250/255.0 green:227/255.0 blue:111/255.0 alpha:1.0]
+
 
 @interface JTWrapNavigationController : UINavigationController
 
@@ -90,14 +94,14 @@ static NSValue *jt_tabBarRectValue;
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-    if (self.tabBarController && [self rootViewController].hidesBottomBarWhenPushed) {
-        self.tabBarController.tabBar.frame = CGRectZero;
-    }
+//    if (self.tabBarController && [self rootViewController].hidesBottomBarWhenPushed) {
+//        self.tabBarController.tabBar.frame = CGRectZero;
+//    }
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    self.tabBarController.tabBar.translucent = YES;
+    //self.tabBarController.tabBar.translucent = YES;
     if (self.tabBarController && !self.tabBarController.tabBar.hidden && jt_tabBarRectValue) {
         self.tabBarController.tabBar.frame = jt_tabBarRectValue.CGRectValue;
     }
@@ -145,6 +149,39 @@ static NSValue *jt_tabBarRectValue;
 @end
 
 @implementation JTNavigationController
+
++ (void)load
+{
+    UIBarButtonItem *item=[UIBarButtonItem appearanceWhenContainedIn:self, nil ];
+    NSMutableDictionary *dic=[NSMutableDictionary dictionary];
+    dic[NSFontAttributeName]=[UIFont systemFontOfSize:15];
+    dic[NSForegroundColorAttributeName]=[UIColor blackColor];
+    [item setTitleTextAttributes:dic forState:UIControlStateNormal];
+    
+    UINavigationBar *bar = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:@[self]];
+    
+    [bar setBackgroundImage:[UIImage imageWithColor:NavBarColor] forBarMetrics:UIBarMetricsDefault];
+    NSMutableDictionary *dicBar=[NSMutableDictionary dictionary];
+    
+    dicBar[NSFontAttributeName]=[UIFont systemFontOfSize:15];
+    [bar setTitleTextAttributes:dic];
+    
+}
+
+
+//- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
+//{
+//    
+//    if (self.viewControllers.count > 0) {
+//        
+//        viewController.hidesBottomBarWhenPushed = YES;
+//
+//    }
+//    
+//    return [super pushViewController:viewController animated:animated];
+//}
+
+
 
 - (instancetype)initWithRootViewController:(UIViewController *)rootViewController {
     if (self = [super init]) {
