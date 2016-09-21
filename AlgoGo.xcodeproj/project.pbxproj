@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2705D1711D92660000A0B2E5 /* log.png in Resources */ = {isa = PBXBuildFile; fileRef = 2705D1701D92660000A0B2E5 /* log.png */; };
 		274782CB1D89277B001520D5 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 274782C91D89277B001520D5 /* login.png */; };
 		274782CC1D89277B001520D5 /* login.psd in Resources */ = {isa = PBXBuildFile; fileRef = 274782CA1D89277B001520D5 /* login.psd */; };
 		27E501021D8931A800AFEF64 /* doggy.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E500F81D8931A800AFEF64 /* doggy.png */; };
@@ -109,6 +110,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2705D1701D92660000A0B2E5 /* log.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = log.png; sourceTree = "<group>"; };
 		274782C91D89277B001520D5 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
 		274782CA1D89277B001520D5 /* login.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = login.psd; sourceTree = "<group>"; };
 		27E500F81D8931A800AFEF64 /* doggy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doggy.png; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 		274782C81D89277B001520D5 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				2705D1701D92660000A0B2E5 /* log.png */,
 				27F1703B1D9258570024B781 /* theo.png */,
 				27F170391D9250A90024B781 /* info.png */,
 				27F16F901D8FB58B0024B781 /* backImage@2x.png */,
@@ -923,6 +926,7 @@
 				27F16FE61D8FB60D0024B781 /* login.png in Resources */,
 				27E501051D8931A800AFEF64 /* 女孩和狗01.png in Resources */,
 				27F16FE31D8FB60D0024B781 /* 女孩和狗02a.png in Resources */,
+				2705D1711D92660000A0B2E5 /* log.png in Resources */,
 				27E5010B1D8931A800AFEF64 /* test.png in Resources */,
 				27F16F931D8FB58B0024B781 /* backImage@3x.png in Resources */,
 				27F1702A1D8FBBA40024B781 /* message_highlight@2x.png in Resources */,

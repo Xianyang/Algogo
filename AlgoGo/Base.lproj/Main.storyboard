@@ -1,10 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="sJa-oI-D29">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="i4Z-Le-3Ff">
+            <objects>
+                <viewController id="sJa-oI-D29" customClass="AGLoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IRL-9U-gVM"/>
+                        <viewControllerLayoutGuide type="bottom" id="imA-aJ-n4W"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Phx-sc-S0D">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="log.png" translatesAutoresizingMaskIntoConstraints="NO" id="g6U-5Q-0bk">
+                                <rect key="frame" x="-2" y="0.0" width="380" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iv4-Yq-bZ2">
+                                <rect key="frame" x="36" y="386" width="295" height="43"/>
+                                <connections>
+                                    <action selector="clickTest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KBm-JL-2zp"/>
+                                    <action selector="clickTest:" destination="sJa-oI-D29" eventType="touchUpInside" id="dn9-5J-8Pk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vHJ-Ur-zpx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332.5" y="-4.5"/>
+        </scene>
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -21,12 +52,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iv4-Yq-bZ2">
-                                <rect key="frame" x="126" y="273" width="118" height="60"/>
-                                <connections>
-                                    <action selector="clickTest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KBm-JL-2zp"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dbo-BC-bjX">
                                 <rect key="frame" x="201" y="353" width="84" height="25"/>
                             </button>
@@ -37,7 +62,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="273.5" y="407.5"/>
+            <point key="canvasLocation" x="-163.5" y="-4.5"/>
         </scene>
         <!--Trade View Controller-->
         <scene sceneID="KyD-JX-560">
@@ -157,7 +182,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uAe-lK-roM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="888.5" y="30.5"/>
+            <point key="canvasLocation" x="790.5" y="-4.5"/>
         </scene>
         <!--Strategy View Controller-->
         <scene sceneID="emd-rW-SSx">
@@ -185,7 +210,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hdH-dP-qih" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1281.5" y="30.5"/>
+            <point key="canvasLocation" x="1219.5" y="-4.5"/>
         </scene>
         <!--Chart View Controller-->
         <scene sceneID="fk1-W0-ZXp">
@@ -212,7 +237,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C1g-jO-zce" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1675.5" y="30.5"/>
+            <point key="canvasLocation" x="1667.5" y="-4.5"/>
         </scene>
         <!--Warn View Controller-->
         <scene sceneID="Cw4-fq-t3B">
@@ -253,7 +278,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yaf-us-5ZY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2087.5" y="30.5"/>
+            <point key="canvasLocation" x="2105.5" y="-4.5"/>
         </scene>
         <!--Record View Controller-->
         <scene sceneID="Vms-3A-VBO">
@@ -281,7 +306,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lZ8-Tn-nNj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2516.5" y="37.5"/>
+            <point key="canvasLocation" x="2544.5" y="-4.5"/>
         </scene>
         <!--Info-->
         <scene sceneID="0i5-mK-JVX">
@@ -306,7 +331,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tvl-pz-gQw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1266.5" y="950.5"/>
+            <point key="canvasLocation" x="790.5" y="1470.5"/>
         </scene>
         <!--Account-->
         <scene sceneID="zYk-oV-JTs">
@@ -334,10 +359,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yiP-bJ-cfL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="850.5" y="950.5"/>
+            <point key="canvasLocation" x="790.5" y="744.5"/>
         </scene>
     </scenes>
     <resources>
+        <image name="log.png" width="750" height="1364"/>
         <image name="login.png" width="640" height="1136"/>
         <image name="strategyTest.png" width="775" height="1288"/>
         <image name="theo.png" width="640" height="1136"/>
