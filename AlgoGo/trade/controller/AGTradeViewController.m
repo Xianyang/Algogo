@@ -14,7 +14,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"Trade";
+    //self.title = @"Test";
     //self.navigationController.navigationBar.barTintColor = [UIColor randomColor];
     //self.view.backgroundColor = [UIColor randomColor];
     

@@ -81,6 +81,8 @@
 		27F170341D8FBBA40024B781 /* tapbar_top_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F1701B1D8FBBA40024B781 /* tapbar_top_line@2x.png */; };
 		27F170371D8FC69C0024B781 /* buy-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F170351D8FC69C0024B781 /* buy-128.png */; };
 		27F170381D8FC69C0024B781 /* strategyTest.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F170361D8FC69C0024B781 /* strategyTest.png */; };
+		27F1703A1D9250A90024B781 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F170391D9250A90024B781 /* info.png */; };
+		27F1703C1D9258570024B781 /* theo.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F1703B1D9258570024B781 /* theo.png */; };
 		4CDAF302BC92A96597669F0E /* libPods-AlgoGoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F785C1ACD2C8AB069AACF7 /* libPods-AlgoGoTests.a */; };
 		866A2C111D88F15400A4C18B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 866A2C101D88F15400A4C18B /* main.m */; };
 		866A2C2D1D88F15400A4C18B /* AlgoGoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 866A2C2C1D88F15400A4C18B /* AlgoGoTests.m */; };
@@ -198,6 +200,8 @@
 		27F1701B1D8FBBA40024B781 /* tapbar_top_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tapbar_top_line@2x.png"; sourceTree = "<group>"; };
 		27F170351D8FC69C0024B781 /* buy-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buy-128.png"; sourceTree = "<group>"; };
 		27F170361D8FC69C0024B781 /* strategyTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strategyTest.png; sourceTree = "<group>"; };
+		27F170391D9250A90024B781 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		27F1703B1D9258570024B781 /* theo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theo.png; sourceTree = "<group>"; };
 		458506E4586CFFDECFB29B74 /* Pods-AlgoGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgoGo/Pods-AlgoGo.release.xcconfig"; sourceTree = "<group>"; };
 		49DB07B6259435C9C436A9C0 /* Pods-AlgoGoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoGoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlgoGoUITests/Pods-AlgoGoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		673293BF4E2E694B3BF63EAF /* Pods-AlgoGoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoGoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlgoGoTests/Pods-AlgoGoTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -248,6 +252,8 @@
 		274782C81D89277B001520D5 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				27F1703B1D9258570024B781 /* theo.png */,
+				27F170391D9250A90024B781 /* info.png */,
 				27F16F901D8FB58B0024B781 /* backImage@2x.png */,
 				27F16F911D8FB58B0024B781 /* backImage@3x.png */,
 				27F16F851D8F910D0024B781 /* strategyTest.png */,
@@ -889,6 +895,7 @@
 				27F170241D8FBBA40024B781 /* fish_normal@2x.png in Resources */,
 				27E501091D8931A800AFEF64 /* 女孩和狗03.png in Resources */,
 				27F170331D8FBBA40024B781 /* Contents.json in Resources */,
+				27F1703C1D9258570024B781 /* theo.png in Resources */,
 				274782CB1D89277B001520D5 /* login.png in Resources */,
 				27E501441D8933C200AFEF64 /* Info.plist in Resources */,
 				274782CC1D89277B001520D5 /* login.psd in Resources */,
@@ -927,6 +934,7 @@
 				27E501331D8933C200AFEF64 /* Main.storyboard in Resources */,
 				27F170341D8FBBA40024B781 /* tapbar_top_line@2x.png in Resources */,
 				27F170381D8FC69C0024B781 /* strategyTest.png in Resources */,
+				27F1703A1D9250A90024B781 /* info.png in Resources */,
 				27E501311D8933C200AFEF64 /* Assets.xcassets in Resources */,
 				27F16FE81D8FB60D0024B781 /* test.png in Resources */,
 				27F1702F1D8FBBA40024B781 /* Contents.json in Resources */,

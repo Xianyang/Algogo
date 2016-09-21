@@ -87,7 +87,7 @@
     [self setUpOneChildVcWithVc:infoVC Image:@"home_normal" selectedImage:@"home_highlight" title:@"资讯"];
     
     AGTradeViewController *firstVC = [storyboard instantiateViewControllerWithIdentifier:@"tradeController"];
-    [self setUpOneChildVcWithVc:firstVC Image:@"post_normal" selectedImage:@"post_normal" title:@"交易"];
+    [self setCenterVc:firstVC Image:@"post_normal" selectedImage:@"post_normal" title:@"交易"];
     
     AGAccountController *accountVC = [storyboard instantiateViewControllerWithIdentifier:@"accountController"];
     [self setUpOneChildVcWithVc:accountVC Image:@"account_normal" selectedImage:@"account_highlight" title:@"我的"];
@@ -136,29 +136,30 @@
 
 
 
-//- (void)setCenterVc:(UIViewController *)Vc Image:(NSString *)image selectedImage:(NSString *)selectedImage title:(NSString *)title {
-//    JTNavigationController *nav = [[JTNavigationController alloc] initWithRootViewController:Vc];
-//    
-//    UIButton *plusBtn = [[UIButton alloc] init];
-//    UIImage *myImage = [UIImage imageNamed:image];
-//    myImage = [myImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-//    [plusBtn setBackgroundImage:[UIImage imageNamed:@"post_normal"] forState:UIControlStateNormal];
-//    [plusBtn setBackgroundImage:[UIImage imageNamed:@"post_normal"] forState:UIControlStateHighlighted];
-//    
-//    ((AGTabBar *)self.tabBar).centerBtn = plusBtn;
-//    
-//    Vc.tabBarItem.selectedImage = mySelectedImage;
-//
-//    Vc.tabBarItem = uitabbaritem
-//
-//    
-//    Vc.tabBarItem.title = title;
-//    
-//    Vc.navigationItem.title = title;
-//    
-//    [self addChildViewController:nav];
-//
-//}
+- (void)setCenterVc:(UIViewController *)Vc Image:(NSString *)image selectedImage:(NSString *)selectedImage title:(NSString *)title
+{
+    JTNavigationController *nav = [[JTNavigationController alloc] initWithRootViewController:Vc];
+    
+    
+    UIImage *myImage = [UIImage imageNamed:image];
+    myImage = [myImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    //tabBarItem，是系统提供模型，专门负责tabbar上按钮的文字以及图片展示
+    Vc.tabBarItem.image = myImage;
+    
+    UIImage *mySelectedImage = [UIImage imageNamed:selectedImage];
+    mySelectedImage = [mySelectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    Vc.tabBarItem.selectedImage = mySelectedImage;
+    
+    //Vc.tabBarItem.title = title;
+    
+    Vc.navigationItem.title = title;
+    
+    [self addChildViewController:nav];
+    
+}
+
 
 
 
