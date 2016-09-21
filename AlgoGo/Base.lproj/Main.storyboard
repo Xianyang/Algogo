@@ -79,38 +79,39 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PxT-Bc-7dO">
                                 <rect key="frame" x="0.0" y="44" width="276" height="255"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+0.41%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oGN-wg-Yhl">
-                                        <rect key="frame" x="109" y="175" width="56" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GOOGL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZqV-BW-zGw">
-                                        <rect key="frame" x="95" y="134" width="121" height="28"/>
+                                        <rect key="frame" x="85" y="89" width="121" height="28"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+0.41%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oGN-wg-Yhl">
+                                        <rect key="frame" x="100" y="125" width="56" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
-                                <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="0.81726831896551722" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="0.6678340517241379" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rqK-2V-xt5">
                                 <rect key="frame" x="276" y="44" width="99" height="255"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AFb-U1-czj">
-                                        <rect key="frame" x="27" y="141" width="121" height="28"/>
+                                        <rect key="frame" x="39" y="88" width="121" height="28"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-0.30%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPF-9h-oDB">
-                                        <rect key="frame" x="20" y="174" width="56" height="21"/>
+                                        <rect key="frame" x="21" y="117" width="56" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.29619359970092773" green="0.71185439825057983" blue="0.91947817802429199" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.29619359970092773" green="0.71185439825057983" blue="0.91947817802429199" alpha="0.72785560344827582" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="0.8685883620689655" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hHv-eH-USx">
                                 <rect key="frame" x="-1" y="298" width="172" height="189"/>
@@ -132,7 +133,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="0.74991918103448274" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0ar-4k-3Tb">
                                 <rect key="frame" x="169" y="298" width="209" height="187"/>
@@ -150,7 +151,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="0.66530172413793098" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0tD-lM-aTG">
                                 <rect key="frame" x="0.0" y="485" width="375" height="97"/>
@@ -168,7 +169,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="0.6650323275862069" colorSpace="calibratedRGB"/>
                             </view>
                             <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DD9-l0-mOm">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -252,25 +253,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="买入" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSE-La-SNL">
-                                <rect key="frame" x="0.0" y="0.0" width="187" height="84"/>
-                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="0.71252693965517244" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <rect key="frame" x="0.0" y="0.0" width="187" height="54"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="0.44832974137931036" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="卖出" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0NF-kq-5Hz">
-                                <rect key="frame" x="186" y="0.0" width="189" height="84"/>
+                                <rect key="frame" x="186" y="0.0" width="189" height="54"/>
                                 <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="0.50334051724137929" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="美美的预警页面。。。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4g-Os-RIN">
-                                <rect key="frame" x="119" y="267" width="210" height="65"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="warn.png" translatesAutoresizingMaskIntoConstraints="NO" id="eaL-Lz-pOb">
+                                <rect key="frame" x="0.0" y="53" width="375" height="587"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -299,6 +297,12 @@
                                     <segment title="委托"/>
                                 </segments>
                             </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="成交与委托页面" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oYD-8B-MeR">
+                                <rect key="frame" x="128" y="189" width="119" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -306,7 +310,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lZ8-Tn-nNj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2544.5" y="-4.5"/>
+            <point key="canvasLocation" x="2551.5" y="-46.5"/>
         </scene>
         <!--Info-->
         <scene sceneID="0i5-mK-JVX">
@@ -367,5 +371,6 @@
         <image name="login.png" width="640" height="1136"/>
         <image name="strategyTest.png" width="775" height="1288"/>
         <image name="theo.png" width="640" height="1136"/>
+        <image name="warn.png" width="720" height="1169"/>
     </resources>
 </document>
